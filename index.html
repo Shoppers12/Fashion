@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clothing Website</title>
+<style>
+/* CSS for mobile layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as per your design */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 0 10px black;
+    color: aliceblue;
+    /*text-shadow: 0 0 5px blanchedalmond;*/
+    animation: glow 2s linear  infinite  ;
+}
+@keyframes glow {
+
+    0%{
+        text-shadow: 0 0 0px blanchedalmond;
+    }
+    25%{
+        text-shadow: 0 0 5px blanchedalmond;
+    }
+    50%{
+        text-shadow: 0 0 10px blanchedalmond;
+    }
+    75%{
+        text-shadow: 0 0 5px blanchedalmond;
+    }
+    100%{
+        text-shadow: 0 0 0px blanchedalmond;
+    }
+    
+}
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.menu h1{
+    font-size: 20px;
+    color: darkgoldenrod;
+    text-shadow:  0 0 5px white;
+}
+.main-content a{
+    text-decoration: none;
+    color: #333;
+}
+/*aside{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: aqua;
+    position: fixed;
+
+}*/
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1></h1>
+    </div>
+    
+    <div class="menu">
+        <h1>Fashion Store</h1>
+    </div>
+    
+    <div class="main-content">
+        <a href="checkout1.html"><div class="product">
+            <img src="ring1.jpeg" alt="Product 1">
+            <h2>Stainless Steel Couple Ring</h2>
+            <p>₹540</p>
+        </div></a>
+        
+        <div class="product">
+            <a href="checkout2.html"><img src="ring2.jpeg" alt="Product 2">
+            <h2>Silver Crystal Elegant Couple Adjustable Ring</h2>
+            <p>₹980</p>
+        </div></a>
+        
+        <div class="product">
+            <a href="checkout3.html"><img src="ring3.jpeg" alt="Product 3">
+            <h2>Gold-Plated Cubic Zirconia-Studded Adjustable Couple Rings</h2>
+            <p>₹451</p>
+        </div></a>
+
+        <div class="product">
+            <a href="checkout4.html"> <img src="ring4.jpeg" alt="Product 3">
+            <h2> Silver-Plated & White Crystal-Studded Couple Adjustable Finger Ring</h2>
+            <p>₹379</p>
+        </div></a>
+
+        <div class="product">
+            <a href="checkout5.html"><img src="ring5.jpeg" alt="Product 3">
+            <h2>H&M
+                Men 3-Pack Rings</h2>
+            <p>₹799</p>
+        </div></a>
+
+        <div class="product">
+            <a href="checkout6.html"><img src="ring6.jpeg" alt="Product 3">
+            <h2>Set Of 5 Gold-Plated White Stone-Studded Butterfly Finger Ring</h2>
+            <p>₹263</p>
+        </div></a>
+
+        <div class="product">
+            <a href="checkout7.html"><img src="ring7.jpeg" alt="Product 3">
+            <h2>Silver-Plated CZ-Studded Finger Ring</h2>
+            <p>₹284</p>
+        </div></a>
+
+        <div class="product">
+            <a href="checkout8.html"><img src="ring8.jpeg" alt="Product 3">
+            <h2>Gold-Plated AD-Studded Adjustable Finger Ring</h2>
+            <p>₹399</p>
+        </div></a>
+
+        <div class="product">
+            <a href="checkout9.html"><img src="ring9.jpeg" alt="Product 3">
+            <h2>Gold-Plated Stone Studded Finger Rings</h2>
+            <p>₹324</p>
+        </div></a>
+    </div>
+    <aside>
+
+    </aside>
+    
+    <div class="footer">
+        <p>&copy; 2024 Sami Fashion Store. All rights reserved.</p>
+    </div>
+</div>
+
+</body>
+</html>
